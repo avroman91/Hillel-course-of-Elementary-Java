@@ -9,6 +9,7 @@ public class Main {
         ArrayList<Task> taskList = new ArrayList<Task>();
         Scanner scanner = new Scanner(System.in);
         int taskId = 1;
+        System.out.println("Available commands : add, done, list, done list, to do list, stop");
         Q:
         while (true) {
             System.out.println("Enter command:");
